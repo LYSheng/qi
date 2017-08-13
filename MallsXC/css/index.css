@@ -1,0 +1,139 @@
+body{
+    background-color: #0A7CB2;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #0A7CB2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.ll{
+    -webkit-animation: start 1.5s infinite ease-in-out;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px !important;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #0A7CB2;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /*margin-bottom: 0px !important;*/
+    padding: 0px !important;
+}
+.TitleBox{
+    height: 1rem;
+    position: absolute;
+    top: 0.3rem;
+    text-align: center;
+}
+.TitleBox img{
+    width: 100%;
+}
+.TitleName{
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    top: 1.5rem;
+    text-align: center;
+}
+.TxtImg{
+    /*width: 100%;*/
+    height: 188px;
+    text-align: center;
+    position: absolute;
+    top: 3rem;
+}
+.TxtImg img{
+    width: 100%;
+}
+.Logo{
+    height: 188px;
+    text-align: center;
+    visibility: visible;
+    position: absolute;
+    top: 3rem;
+}
+.Logo img{
+    width: 100%;
+}
+.TextNei{
+    /*width: 100%;*/
+    height:auto;
+    padding: 1rem;
+    color: #333;
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    top: 7.5rem;
+}
+.TwoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    padding:0px 30px;
+}
+.TwoName{
+    font-size: 14px;
+    text-align: left;
+    padding:0px 30px;
+    top:2rem;
+}
+.TwoNei{
+    top: 4rem;
+}
+.SanImg img{
+    width: 100%;
+}
+.SanLeft{
+    top:4rem;
+}
+.SanRig{
+    top:6rem;
+}
+.SanTxt{
+    font-size: 20px;
+    font-weight: bolder;
+    top:10rem;
+    color: #fff;
+    /*color: #ff5454;*/
+    text-shadow:rgba(255,123,134,0.8) 0 2px 0;
+}
+.siText{
+    text-align: left;
+}
+.SiTitle{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    padding: 0px 30px;
+    text-align: left;
+}
+.siImg img{
+    width: 100%;
+}
