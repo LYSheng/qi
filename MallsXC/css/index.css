@@ -137,3 +137,31 @@ body {
 .siImg img{
     width: 100%;
 }
+.arrow{
+    width: 20px;
+    height: 15px;
+    bottom: 0.3rem;
+    left: 3.5rem;
+    position: absolute;
+    z-index: 999;
+    animation: start 1.5s infinite ease-in-out;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+}
+.arrow img{
+    width: 100%;
+}
+
+@keyframes  start{
+    0%, 30% {
+        opacity: 0;
+        transform: translate(0,10px);
+    }
+60% {
+    opacity: 1;
+    transform: translate(0,0);
+}
+100% {
+    opacity: 0;
+    transform: translate(0,-8px);
+}
+}
