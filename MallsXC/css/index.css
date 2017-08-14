@@ -122,7 +122,7 @@ body {
     top:10rem;
     color: #fff;
     /*color: #ff5454;*/
-    text-shadow:rgba(255,123,134,0.8) 0 2px 0;
+    text-shadow:rgba(255,123,134,0.8) 0 20px 0;
 }
 .siText{
     text-align: left;
@@ -165,3 +165,18 @@ body {
     transform: translate(0,-8px);
 }
 }
+.music{
+    display: block;
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    right: 0.5rem;
+    top:0rem;
+    z-index: 999999;
+}
+#audio{
+    position: absolute;
+    top: 1rem;
+    z-index: 99999;
+}
+
