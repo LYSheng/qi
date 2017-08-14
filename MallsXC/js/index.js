@@ -20,4 +20,19 @@ $(function () {
     });
 
 
+    var aud = document.getElementById("audio");
+    var img = document.getElementById("playpause");
+    img.onclick = function() {
+        if (aud.paused) {
+            aud.play();
+        } else {
+            aud.pause();
+        }
+    }
+    aud.addEventListener("play", function (e) {
+        img.src="../image/arrow.png";
+    }, false);
+    aud.addEventListener("pause", function (e) {
+        img.src="../image/002.png";
+    }, false);
 })

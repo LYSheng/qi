@@ -122,7 +122,7 @@ body {
     top:10rem;
     color: #fff;
     /*color: #ff5454;*/
-    text-shadow:rgba(255,123,134,0.8) 0 20px 0;
+    text-shadow:rgba(255,123,134,0.8) 0 2px 0;
 }
 .siText{
     text-align: left;
@@ -174,9 +174,22 @@ body {
     top:0rem;
     z-index: 999999;
 }
-#audio{
+.anNiu{
     position: absolute;
-    top: 1rem;
+    top:0.4rem;
+    right: 0.4rem;
+    width: 1rem;
+    height: 1rem;
+    /*background-color: red;*/
+    overflow: hidden;
     z-index: 99999;
+}
+#audio{
+    opacity: 0;
+}
+#playpause{
+    width: 100%;
+    position: relative;
+    z-index: 999999;
 }
 
